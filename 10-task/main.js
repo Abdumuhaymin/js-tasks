@@ -1,0 +1,11 @@
+let son = +prompt();
+let a;
+let b;
+let c;
+b = son;
+a = parseInt(son / 3600);
+b = parseInt((son % 3600) / 60);
+c = parseInt(son % 60);
+console.log(a + "soat");
+console.log(b + "minut");
+console.log(c + "sekund");
